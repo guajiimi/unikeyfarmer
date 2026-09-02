@@ -1,0 +1,14 @@
+# UNIKEY Farmer proxy list — 1 proxy per line
+# Format yang didukung:
+#   http://user:pass@host:port
+#   socks5://host:port
+#   host:port            (default http://)
+#   direct               (pakai IP VPS, tanpa proxy)
+#
+# Tips:
+# - 1 worker = 1 proxy unik (wajib, rate-limit per-IP)
+# - Datacenter proxy cepat kena rate limit, residential lebih aman
+# - Contoh:
+# http://user:pass@residential.example.com:8807
+# socks5://127.0.0.1:40000
+# direct
